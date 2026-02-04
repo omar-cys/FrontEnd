@@ -1,0 +1,69 @@
+body{
+    background-color: bisque;
+}
+p{
+    background-color: rgb(128, 215, 239);
+}
+p sup {
+    color: black;
+    font-size: 60px;
+}
+p i{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h5,h6{
+    display: inline;
+}
+p,h1{
+    color: rgb(239, 21, 21);
+}
+
+h4 {
+    background-color: blueviolet;
+}
+h5,h6 {
+    font-size: 50px;
+}
+/* h6 {
+font-size: 20px;
+} */
+h1 {
+    color: brown;
+}
+/* universal selector */
+*{
+    font-size: 20px;
+}
+li *{
+    color: blueviolet;
+}
+p *{
+    background-color: blue;
+}
+#head2{
+    color: darkblue;
+}
+.header{
+    font-size: 100px;
+}
+/* 
+inline css 1000pt
+id 100pt
+class 10pt
+tag name 1pt
+*/
+h4{
+    background-color: chocolate !important;
+}
+.pretag {
+    background-color: blue;
+}
+#tag {
+    background-color: red;
+}
+pre {
+    background-color: yellow !important;
+}
+ul *{
+    color: blue;
+}

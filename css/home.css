@@ -1,0 +1,52 @@
+/* class 10 points
+10*3= 30+1= 31 pt
+*/
+
+.container .main .sales p{
+    background-color: aqua;
+}
+
+/* 
+10*2= 20+1= 21 pt
+*/
+
+.main .sales p{
+    background-color: brown;
+}
+
+/* 
+10+1= 11 pt
+*/
+
+.sales p{
+    background-color: chocolate;
+}
+
+/* يطبق الاحدث لانهم متساويين بعدد النقاط */
+a{
+    color: aquamarine;
+}
+a{
+    color: cornflowerblue;
+}
+a{
+    color: purple;
+}
+
+/* hex 00-ff
+#000000 black
+#ff0000 red
+#00ff00 green
+*/
+
+a{
+    color: #00ff00;
+}
+
+/* rgb 0-255 
+0--black / 255--white
+*/
+a{
+    background-color: rgb(255, 0, 0);
+}
+

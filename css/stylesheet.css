@@ -1,0 +1,33 @@
+/* h1{
+    background-color: hsl(0, 100%, 50%);
+} */
+
+/* rem -- root(base-html)  2*16= 32px  2rem == 32px */
+/* html{
+    font-size: 16px;
+}*/
+
+/* em -- father(div)  2*20= 40px   2em == 40px */
+/* div{
+    font-size: 20px;
+}
+
+.em{
+    font-size: 2em;
+    background-color: yellow;
+}
+
+.rem{
+    font-size: 2rem;
+    background-color: aqua;
+}  */
+
+h1{
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p{
+    text-transform: uppercase;
+}
