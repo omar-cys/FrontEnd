@@ -1,0 +1,25 @@
+h2{
+    color: brown;
+}
+h3{
+    text-align: center;
+    background-color: aquamarine;
+}
+.students {
+    border: 5px solid black;
+    border-collapse: collapse;
+    width: 40%;
+    margin-left: 30%;
+}
+.students th, .students td {
+    border: 5px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.students th {
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+.students tbody tr {
+    height: 60px;
+}

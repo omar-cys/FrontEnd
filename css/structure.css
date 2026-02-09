@@ -1,4 +1,16 @@
-#navbar{
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 60px;
+    padding-top: 20px;
+}
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
     background-color: gray;
     display: flex;
     justify-content: space-between;
@@ -10,6 +22,9 @@ ul{
     list-style: none;
     margin-right: 40%;
     gap: 80px;
+}
+main{
+    margin: 40px;
 }
 #logo img{
     border-radius: 50px;
@@ -30,12 +45,17 @@ a:hover{
     background-color: rgb(11, 196, 234);
     color: white;
 }
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+article{
+    background-color: gray;
+    padding: 40px;
+    text-align: center;
 }
-#footer{
+section{margin-top: 40px;
+    background-color: gray;
+    padding: 40px;
+    text-align: center;
+}
+footer{
     background-color: gray;
     position: fixed;
     width: 100%;
