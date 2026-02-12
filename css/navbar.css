@@ -37,9 +37,9 @@ a:hover{
 }
 #footer{
     background-color: gray;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
-    bottom: 0px;
+    /* bottom: 0px; */
     height: 150px;
     padding: 10px;
 }
@@ -62,4 +62,39 @@ a:hover{
 i{
     margin-right: 5px;
     color: blue;
+}
+.maingrid {
+  width: 80%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  border: 2px solid black;
+  padding: 40px;
+  background-color: aqua;
+}
+
+.grid {
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+  background-color: aquamarine;
+}
+
+.grid img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.grid p {
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.grid button {
+  padding: 6px 14px;
+  cursor: pointer;
+  color: blue;
+  background-color: rgb(238, 255, 0);
 }
