@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+font-family: Arial;
+}
+.hero{
+height:100vh;
+background:url("https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f") center/cover;
+display:flex;
+align-items:center;
+color:white;
+text-shadow:1px 1px 5px rgba(7, 255, 255, 0.74);
+}
+#about{
+    background-color: rgba(117, 217, 228, 0.386);
+}
+.hero h1{
+font-size:55px;
+font-weight:bold;
+}
+.card{
+transition:0.3s;
+}
+.card-body{
+    background-color: rgba(2, 253, 240, 0.228);
+}
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 20px rgb(0, 224, 249);
+}
+section{
+scroll-margin-top:80px;
+}
+footer{
+margin-top:40px;
+}
+#products{
+    background-color: rgba(124, 243, 203, 0.11);
+}
+#contact{
+    background-color: rgba(158, 229, 245, 0.331);
+}
