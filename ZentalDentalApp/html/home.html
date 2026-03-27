@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Zental Clinic</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="home.html">Home</a>
+        <a href="appointments.html">Appointments</a>
+        <a href="reports.html">Reports</a>
+        <a href="login.html" onclick="logout()">Logout</a>
+    </div>
+    <div class="container mt-4 mb-4">
+        <h1>Welcome to Zental Clinic</h1>
+        <p class="welcome-text">Choose your doctor and book your appointment easily.</p>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 col-sm-10 mb-4">
+                <div class="doctor-card">
+                    <img src="data:image/jpeg;base64,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" alt="Dr. Lusine Qablan" class="img-fluid">
+                    <h3>Dr. Lusine Qablan</h3>
+                    <p><strong>Children Dentist</strong></p>
+                    <p>Teeth Cleaning</p>
+                    <p>Kids Tooth Extraction</p>
+                    <p>Dental Checkup</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-10 mb-4">
+                <div class="doctor-card">
+                    <img src="https://media.istockphoto.com/id/2158610739/photo/handsome-male-doctor-with-stethoscope-over-neck-working-while-looking-at-camera-in-the.jpg?s=612x612&w=0&k=20&c=WWd2ujTaKfM7VU47_z_E-2YPIGlEEvJa4qVgavD4a70=" alt="Dr. Tareq Amare" class="img-fluid">
+                    <h3>Dr. Tareq Amare</h3>
+                    <p><strong>Endodontist</strong></p>
+                    <p>Root Canal Treatment</p>
+                    <p>Re-Root Canal Treatment</p>
+                    <p>Molar Extraction</p>
+                    <p>Pain Examination</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-10 mb-4">
+                <div class="doctor-card">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg?crop=0.66698xw:1xh;center,top&resize=640:*" alt="Dr. Rame Mohammed" class="img-fluid">
+                    <h3>Dr. Rame Mohammed</h3>
+                    <p><strong>Orthodontist</strong></p>
+                    <p>Orthodontic Checkup</p>
+                    <p>Braces Installation</p>
+                    <p>Braces Adjustment</p>
+                    <p>Follow-up</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-10 mb-4">
+                <div class="doctor-card">
+                    <img src="https://ra2ej.awicdn.com/site-images/sites/default/files/ra2ej-prod/album/d/b/219013/50ff9892cf625911848cd4440279598cb6973748-061016141418.jpg?preset=v3.0_770XDYN&save-png=1&rnd=1519151RND220215&f=player2" alt="Dr. Omar Ahmad" class="img-fluid">
+                    <h3>Dr. Omar Ahmad</h3>
+                    <p><strong>Consultant</strong></p>
+                    <p>Dental Consultation</p>
+                </div>
+            </div>
+        </div>
+        <div class="about-section mt-4">
+            <h2>About Zental Clinic</h2>
+            <p class="about-text">
+                Zental Dental Clinic is a modern and user-friendly system designed to make dental care easier and more accessible for patients.
+                Our platform allows users to explore dentists, view available services, and book appointments in a simple and organized way.
+                We aim to provide a comfortable experience that combines efficiency, convenience, and professional care.
+            </p>
+            <div class="contact-box">
+                <h3>Contact Information</h3>
+                <p><strong>Phone:</strong> 0775566288</p>
+                <p><strong>Email:</strong> omaratif103@gmail.com</p>
+                <p><strong>Location:</strong> Abu Rashid Street, Al-Asdiqa Building, 2nd Floor, Irbid</p>
+                <p><strong>Working Hours:</strong> 10:00 AM - 5:00 PM</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>© 2026 Zental Dental Clinic</p>
+        <p>Developed by Omar</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

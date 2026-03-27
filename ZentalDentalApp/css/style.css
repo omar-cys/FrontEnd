@@ -1,0 +1,325 @@
+/*  RESET  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  BODY  */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #eaf6ff, #f8fcff);
+    color: #1f2d3d;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*  NAVBAR  */
+.nav {
+    background: linear-gradient(90deg, #0b7dda, #125ea7);
+    padding: 18px;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 14px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.nav a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(255,255,255,0.6);
+    transform: scale(1.05);
+}
+
+/*  CONTAINERS  */
+.container {
+    width: 90%;
+    max-width: 950px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.96);
+    padding: 35px;
+    border-radius: 22px;
+    box-shadow: 0 10px 30px rgba(18, 94, 167, 0.12);
+    border: 1px solid #e7f0f8;
+}
+
+.small-container {
+    width: 90%;
+    max-width: 420px;
+    margin: 60px auto;
+    background: rgba(255, 255, 255, 0.96);
+    padding: 30px 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(18, 94, 167, 0.12);
+    border: 1px solid #e7f0f8;
+    text-align: center;
+    transition: 0.4s;
+}
+
+/*  HERO SECTION  */
+.hero-wrapper {
+    flex: 1;
+    background: linear-gradient(135deg, #dff1ff, #f8fcff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.hero-overlay {
+    width: 100%;
+}
+
+.hero-wrapper .small-container {
+    background: rgba(255, 255, 255, 0.92);
+    max-width: 520px;
+}
+
+.hero-text {
+    color: #567086;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.hero-buttons a {
+    text-decoration: none;
+}
+
+.hero-buttons button {
+    margin-bottom: 12px;
+}
+
+/*  TEXT  */
+h1, h2, h3 {
+    color: #0d5c9f;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.welcome-text {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #567086;
+}
+
+.about-text {
+    text-align: center;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/*  INPUTS  */
+input,
+select {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0 16px 0;
+    border: 1px solid #cfe0ee;
+    border-radius: 12px;
+    font-size: 15px;
+    background: #f9fcff;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus,
+select:focus {
+    border-color: #0b7dda;
+    box-shadow: 0 0 0 3px rgba(11, 125, 218, 0.15);
+    background: white;
+}
+
+input:hover,
+select:hover {
+    border-color: #0b7dda;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(11,125,218,0.15);
+}
+
+/*  BUTTONS  */
+button {
+    background: linear-gradient(90deg, #0b7dda, #125ea7);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #125ea7, #0b7dda);
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 12px 20px rgba(11, 125, 218, 0.35);
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+/*  CARDS  */
+.card {
+    background: linear-gradient(180deg, #ffffff, #f7fbff);
+    border: 1px solid #e3eef8;
+    border-radius: 18px;
+    padding: 18px;
+    margin-top: 14px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px) scale(1.01);
+    box-shadow: 0 18px 30px rgba(18, 94, 167, 0.2);
+}
+
+/*  DOCTORS  */
+.doctors {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.doctor-card {
+    width: 100%;
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.doctor-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 20px 35px rgba(11,125,218,0.25);
+}
+
+.doctor-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.doctor-card:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(11,125,218,0.4);
+}
+
+/*  ABOUT SECTION  */
+.about-section {
+    margin-top: 40px;
+    padding: 30px;
+    background: linear-gradient(180deg, #ffffff, #f4faff);
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.about-section:hover {
+    transform: scale(1.01);
+    box-shadow: 0 18px 35px rgba(0,0,0,0.12);
+}
+
+.contact-box {
+    background: #eef6ff;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.contact-box:hover {
+    background: #e3f2ff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/*  REPORTS  */
+#p,
+#r {
+    background: #eef8ff;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*  LINKS  */
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #084f8c;
+}
+
+/*  FOOTER  */
+.footer {
+    background: linear-gradient(90deg, #0b7dda, #125ea7);
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: auto;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footer:hover {
+    background: linear-gradient(90deg, #125ea7, #0b7dda);
+    letter-spacing: 1px;
+}
+
+/*  SMOOTH SCROLL  */
+html {
+    scroll-behavior: smooth;
+}
+
+/*  MOBILE  */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .small-container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .nav a {
+        display: inline-block;
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .doctor-card {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .hero-wrapper {
+        padding: 20px 12px;
+    }
+
+    .hero-wrapper .small-container {
+        margin: 30px auto;
+    }
+}
