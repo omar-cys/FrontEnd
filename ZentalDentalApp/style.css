@@ -169,6 +169,13 @@ button:active {
     transform: scale(0.97);
 }
 
+.card button {
+    width: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px 16px;
+}
+
 /*  CARDS  */
 .card {
     background: linear-gradient(180deg, #ffffff, #f7fbff);
